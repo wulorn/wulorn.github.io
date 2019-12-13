@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>闲情叙话</title>
-    <link>http://wulron.com/zh/</link>
+    <link>/zh/</link>
     <description>Recent content on 闲情叙话</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>&amp;copy;2017, All Rights Reserved</copyright>
     
-        <atom:link href="http://wulron.com/zh/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/zh/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title></title>
-        <link>http://wulron.com/zh/about/</link>
+        <link>/zh/about/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://wulron.com/zh/about/</guid>
+        <guid>/zh/about/</guid>
         <description></description>
       </item>
       

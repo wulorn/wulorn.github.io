@@ -1,6 +1,6 @@
 [
 {
-	"uri": "http://wulron.com/zh/about/",
+	"uri": "/zh/about/",
 	"title": "",
 	"tags": [],
 	"categories": [],
@@ -9,7 +9,7 @@
 	"content": ""
 },
 {
-	"uri": "http://wulron.com/zh/archive/",
+	"uri": "/zh/archive/",
 	"title": "",
 	"tags": [],
 	"categories": [],
@@ -18,7 +18,7 @@
 	"content": ""
 },
 {
-	"uri": "http://wulron.com/zh/notes/",
+	"uri": "/zh/notes/",
 	"title": "",
 	"tags": [],
 	"categories": [],
@@ -27,7 +27,7 @@
 	"content": ""
 },
 {
-	"uri": "http://wulron.com/zh/posts/",
+	"uri": "/zh/posts/",
 	"title": "",
 	"tags": [],
 	"categories": [],
@@ -36,7 +36,7 @@
 	"content": ""
 },
 {
-	"uri": "http://wulron.com/zh/categories/",
+	"uri": "/zh/categories/",
 	"title": "Categories",
 	"tags": [],
 	"categories": [],
@@ -45,7 +45,7 @@
 	"content": ""
 },
 {
-	"uri": "http://wulron.com/zh/series/",
+	"uri": "/zh/series/",
 	"title": "Series",
 	"tags": [],
 	"categories": [],
@@ -54,7 +54,7 @@
 	"content": ""
 },
 {
-	"uri": "http://wulron.com/zh/tags/",
+	"uri": "/zh/tags/",
 	"title": "Tags",
 	"tags": [],
 	"categories": [],
@@ -63,7 +63,7 @@
 	"content": ""
 },
 {
-	"uri": "http://wulron.com/zh/",
+	"uri": "/zh/",
 	"title": "闲情叙话",
 	"tags": [],
 	"categories": [],

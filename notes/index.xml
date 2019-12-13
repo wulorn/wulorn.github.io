@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notes on 闲情叙话</title>
-    <link>http://wulron.com/notes/</link>
+    <link>/notes/</link>
     <description>Recent content in Notes on 闲情叙话</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;2017, All Rights Reserved</copyright>
     <lastBuildDate>Wed, 11 Oct 2017 10:33:41 +0900</lastBuildDate>
     
-        <atom:link href="http://wulron.com/notes/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/notes/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title>Syntax highlighting</title>
-        <link>http://wulron.com/notes/hugo/syntax-highlight/</link>
+        <link>/notes/hugo/syntax-highlight/</link>
         <pubDate>Wed, 11 Oct 2017 10:33:41 +0900</pubDate>
         
-        <guid>http://wulron.com/notes/hugo/syntax-highlight/</guid>
+        <guid>/notes/hugo/syntax-highlight/</guid>
         <description>Dolore in consectetur irure qui laborum. Adipisicing cillum ad laboris dolor. Quis consectetur ullamco esse ad mollit anim sint nostrud esse. Irure voluptate ex fugiat voluptate ea fugiat laboris.
  This is a blockqute.
  line
@@ -30,10 +30,10 @@ Diff 1 2 3 4 5 6 7 8 9 10  *** /path/to/original	&amp;#39;&amp;#39;timestamp&amp
       
       <item>
         <title>Sub List</title>
-        <link>http://wulron.com/notes/sublist/</link>
+        <link>/notes/sublist/</link>
         <pubDate>Tue, 09 Oct 2012 11:44:14 +0900</pubDate>
         
-        <guid>http://wulron.com/notes/sublist/</guid>
+        <guid>/notes/sublist/</guid>
         <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget enim lobortis, bibendum massa et, bibendum enim. Nunc eu augue quis ante porta sodales. Mauris vel faucibus magna, dictum sagittis dolor. Nam scelerisque malesuada efficitur. Donec consequat sodales justo, ut aliquam ligula maximus nec.</description>
       </item>
       

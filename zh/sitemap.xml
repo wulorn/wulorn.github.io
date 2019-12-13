@@ -3,118 +3,118 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://wulron.com/zh/about/</loc>
+    <loc>/zh/about/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://wulron.com/about/"
+                href="/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://wulron.com/zh/about/"
+                href="/zh/about/"
                 />
   </url>
   
   <url>
-    <loc>http://wulron.com/zh/archive/</loc>
+    <loc>/zh/archive/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://wulron.com/archive/"
+                href="/archive/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://wulron.com/zh/archive/"
+                href="/zh/archive/"
                 />
   </url>
   
   <url>
-    <loc>http://wulron.com/zh/notes/</loc>
+    <loc>/zh/notes/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://wulron.com/notes/"
+                href="/notes/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://wulron.com/zh/notes/"
+                href="/zh/notes/"
                 />
   </url>
   
   <url>
-    <loc>http://wulron.com/zh/posts/</loc>
+    <loc>/zh/posts/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://wulron.com/posts/"
+                href="/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://wulron.com/zh/posts/"
+                href="/zh/posts/"
                 />
   </url>
   
   <url>
-    <loc>http://wulron.com/zh/categories/</loc>
+    <loc>/zh/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://wulron.com/categories/"
+                href="/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://wulron.com/zh/categories/"
+                href="/zh/categories/"
                 />
   </url>
   
   <url>
-    <loc>http://wulron.com/zh/series/</loc>
+    <loc>/zh/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://wulron.com/series/"
+                href="/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://wulron.com/zh/series/"
+                href="/zh/series/"
                 />
   </url>
   
   <url>
-    <loc>http://wulron.com/zh/tags/</loc>
+    <loc>/zh/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://wulron.com/tags/"
+                href="/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://wulron.com/zh/tags/"
+                href="/zh/tags/"
                 />
   </url>
   
   <url>
-    <loc>http://wulron.com/zh/</loc>
+    <loc>/zh/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://wulron.com/"
+                href="/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://wulron.com/zh/"
+                href="/zh/"
                 />
   </url>
   

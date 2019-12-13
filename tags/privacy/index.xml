@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>privacy on 闲情叙话</title>
-    <link>http://wulron.com/tags/privacy/</link>
+    <link>/tags/privacy/</link>
     <description>Recent content in privacy on 闲情叙话</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;2017, All Rights Reserved</copyright>
     <lastBuildDate>Sun, 10 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://wulron.com/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title>Rich Content</title>
-        <link>http://wulron.com/posts/rich-content/</link>
+        <link>/posts/rich-content/</link>
         <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://wulron.com/posts/rich-content/</guid>
+        <guid>/posts/rich-content/</guid>
         <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
       </item>
       

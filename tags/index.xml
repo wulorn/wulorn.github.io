@@ -2,186 +2,186 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 闲情叙话</title>
-    <link>http://wulron.com/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on 闲情叙话</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;2017, All Rights Reserved</copyright>
     <lastBuildDate>Mon, 18 Nov 2019 21:00:06 +0900</lastBuildDate>
     
-        <atom:link href="http://wulron.com/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title>diagram</title>
-        <link>http://wulron.com/tags/diagram/</link>
+        <link>/tags/diagram/</link>
         <pubDate>Sun, 17 Nov 2019 12:00:06 +0900</pubDate>
         
-        <guid>http://wulron.com/tags/diagram/</guid>
+        <guid>/tags/diagram/</guid>
         <description></description>
       </item>
       
       <item>
         <title>css</title>
-        <link>http://wulron.com/tags/css/</link>
+        <link>/tags/css/</link>
         <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://wulron.com/tags/css/</guid>
+        <guid>/tags/css/</guid>
         <description></description>
       </item>
       
       <item>
         <title>html</title>
-        <link>http://wulron.com/tags/html/</link>
+        <link>/tags/html/</link>
         <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://wulron.com/tags/html/</guid>
+        <guid>/tags/html/</guid>
         <description></description>
       </item>
       
       <item>
         <title>markdown</title>
-        <link>http://wulron.com/tags/markdown/</link>
+        <link>/tags/markdown/</link>
         <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://wulron.com/tags/markdown/</guid>
+        <guid>/tags/markdown/</guid>
         <description></description>
       </item>
       
       <item>
         <title>themes</title>
-        <link>http://wulron.com/tags/themes/</link>
+        <link>/tags/themes/</link>
         <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://wulron.com/tags/themes/</guid>
+        <guid>/tags/themes/</guid>
         <description></description>
       </item>
       
       <item>
         <title>privacy</title>
-        <link>http://wulron.com/tags/privacy/</link>
+        <link>/tags/privacy/</link>
         <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://wulron.com/tags/privacy/</guid>
+        <guid>/tags/privacy/</guid>
         <description></description>
       </item>
       
       <item>
         <title>shortcodes</title>
-        <link>http://wulron.com/tags/shortcodes/</link>
+        <link>/tags/shortcodes/</link>
         <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://wulron.com/tags/shortcodes/</guid>
+        <guid>/tags/shortcodes/</guid>
         <description></description>
       </item>
       
       <item>
         <title>text</title>
-        <link>http://wulron.com/tags/text/</link>
+        <link>/tags/text/</link>
         <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://wulron.com/tags/text/</guid>
+        <guid>/tags/text/</guid>
         <description></description>
       </item>
       
       <item>
         <title>amoji</title>
-        <link>http://wulron.com/tags/amoji/</link>
+        <link>/tags/amoji/</link>
         <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://wulron.com/tags/amoji/</guid>
+        <guid>/tags/amoji/</guid>
         <description></description>
       </item>
       
       <item>
         <title>bamoji</title>
-        <link>http://wulron.com/tags/bamoji/</link>
+        <link>/tags/bamoji/</link>
         <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://wulron.com/tags/bamoji/</guid>
+        <guid>/tags/bamoji/</guid>
         <description></description>
       </item>
       
       <item>
         <title>emoji</title>
-        <link>http://wulron.com/tags/emoji/</link>
+        <link>/tags/emoji/</link>
         <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://wulron.com/tags/emoji/</guid>
+        <guid>/tags/emoji/</guid>
         <description></description>
       </item>
       
       <item>
         <title>gamoji</title>
-        <link>http://wulron.com/tags/gamoji/</link>
+        <link>/tags/gamoji/</link>
         <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://wulron.com/tags/gamoji/</guid>
+        <guid>/tags/gamoji/</guid>
         <description></description>
       </item>
       
       <item>
         <title>namoji</title>
-        <link>http://wulron.com/tags/namoji/</link>
+        <link>/tags/namoji/</link>
         <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://wulron.com/tags/namoji/</guid>
+        <guid>/tags/namoji/</guid>
         <description></description>
       </item>
       
       <item>
         <title>hugo</title>
-        <link>http://wulron.com/tags/hugo/</link>
+        <link>/tags/hugo/</link>
         <pubDate>Wed, 11 Oct 2017 10:33:41 +0900</pubDate>
         
-        <guid>http://wulron.com/tags/hugo/</guid>
+        <guid>/tags/hugo/</guid>
         <description></description>
       </item>
       
       <item>
         <title>Blogging</title>
-        <link>http://wulron.com/tags/blogging/</link>
+        <link>/tags/blogging/</link>
         <pubDate>Sun, 09 Oct 2016 11:44:14 +0900</pubDate>
         
-        <guid>http://wulron.com/tags/blogging/</guid>
+        <guid>/tags/blogging/</guid>
         <description></description>
       </item>
       
       <item>
         <title>Development</title>
-        <link>http://wulron.com/tags/development/</link>
+        <link>/tags/development/</link>
         <pubDate>Sun, 09 Oct 2016 11:44:14 +0900</pubDate>
         
-        <guid>http://wulron.com/tags/development/</guid>
+        <guid>/tags/development/</guid>
         <description></description>
       </item>
       
       <item>
         <title>fast</title>
-        <link>http://wulron.com/tags/fast/</link>
+        <link>/tags/fast/</link>
         <pubDate>Sun, 09 Oct 2016 11:44:14 +0900</pubDate>
         
-        <guid>http://wulron.com/tags/fast/</guid>
+        <guid>/tags/fast/</guid>
         <description></description>
       </item>
       
       <item>
         <title>Go</title>
-        <link>http://wulron.com/tags/go/</link>
+        <link>/tags/go/</link>
         <pubDate>Sun, 09 Oct 2016 11:44:14 +0900</pubDate>
         
-        <guid>http://wulron.com/tags/go/</guid>
+        <guid>/tags/go/</guid>
         <description></description>
       </item>
       
       <item>
         <title>index</title>
-        <link>http://wulron.com/tags/index/</link>
+        <link>/tags/index/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://wulron.com/tags/index/</guid>
+        <guid>/tags/index/</guid>
         <description></description>
       </item>
       
