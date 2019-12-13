@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://wulron.com/zh/about/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://wulron.com/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://wulron.com/zh/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://wulron.com/zh/archive/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://wulron.com/archive/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://wulron.com/zh/archive/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://wulron.com/zh/notes/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://wulron.com/notes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://wulron.com/zh/notes/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://wulron.com/zh/posts/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://wulron.com/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://wulron.com/zh/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://wulron.com/zh/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://wulron.com/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://wulron.com/zh/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://wulron.com/zh/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://wulron.com/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://wulron.com/zh/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://wulron.com/zh/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://wulron.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://wulron.com/zh/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://wulron.com/zh/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://wulron.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://wulron.com/zh/"
+                />
+  </url>
+  
+</urlset>
