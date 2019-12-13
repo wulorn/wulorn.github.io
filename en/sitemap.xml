@@ -40,16 +40,6 @@
   <url>
     <loc>/posts/</loc>
     <lastmod>2019-11-18T21:00:06+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/posts/"
-                />
   </url>
   
   <url>
@@ -135,16 +125,6 @@
   <url>
     <loc>/archive/</loc>
     <lastmod>2019-10-19T11:44:14+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/archive/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/archive/"
-                />
   </url>
   
   <url>
@@ -173,12 +153,12 @@
   </url>
   
   <url>
-    <loc>/categories/themes/</loc>
+    <loc>/tags/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/themes/</loc>
+    <loc>/categories/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -263,28 +243,18 @@
   </url>
   
   <url>
-    <loc>/tags/hugo/</loc>
+    <loc>/categories/hugo/</loc>
     <lastmod>2017-10-11T10:33:41+09:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/hugo/</loc>
+    <loc>/tags/hugo/</loc>
     <lastmod>2017-10-11T10:33:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>/notes/</loc>
     <lastmod>2017-10-11T10:33:41+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/notes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/notes/"
-                />
   </url>
   
   <url>
@@ -360,14 +330,6 @@
   <url>
     <loc>/notes/sublist/</loc>
     <lastmod>2012-10-09T11:44:14+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/index/</loc>
-  </url>
-  
-  <url>
-    <loc>/posts/_index.ko/</loc>
   </url>
   
 </urlset>

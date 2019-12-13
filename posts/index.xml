@@ -144,15 +144,6 @@ pectora summo.&lt;/p&gt;</description>
         <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
       </item>
       
-      <item>
-        <title>Posts</title>
-        <link>/posts/_index.ko/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        <author>wulron@126.com (wulron)</author>
-        <guid>/posts/_index.ko/</guid>
-        <description></description>
-      </item>
-      
     
   </channel>
 </rss>

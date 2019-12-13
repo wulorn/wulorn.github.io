@@ -18,51 +18,6 @@
   </url>
   
   <url>
-    <loc>/zh/archive/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/archive/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/archive/"
-                />
-  </url>
-  
-  <url>
-    <loc>/zh/notes/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/notes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/notes/"
-                />
-  </url>
-  
-  <url>
-    <loc>/zh/posts/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/posts/"
-                />
-  </url>
-  
-  <url>
     <loc>/zh/categories/</loc>
     <xhtml:link
                 rel="alternate"
