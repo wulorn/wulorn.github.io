@@ -6,7 +6,9 @@
     <description>Recent content in hugo on 闲情叙话</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>&amp;copy;2017, All Rights Reserved</copyright>
+    <managingEditor>wulron@126.com (wulron)</managingEditor>
+    <webMaster>wulron@126.com (wulron)</webMaster>
+    <copyright>&amp;copy;2017-{year}, All Rights Reserved</copyright>
     <lastBuildDate>Wed, 11 Oct 2017 10:33:41 +0900</lastBuildDate>
     
         <atom:link href="/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +20,7 @@
         <title>Syntax highlighting</title>
         <link>/notes/hugo/syntax-highlight/</link>
         <pubDate>Wed, 11 Oct 2017 10:33:41 +0900</pubDate>
-        
+        <author>wulron@126.com (wulron)</author>
         <guid>/notes/hugo/syntax-highlight/</guid>
         <description>Dolore in consectetur irure qui laborum. Adipisicing cillum ad laboris dolor. Quis consectetur ullamco esse ad mollit anim sint nostrud esse. Irure voluptate ex fugiat voluptate ea fugiat laboris.
  This is a blockqute.

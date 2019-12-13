@@ -6,7 +6,9 @@
     <description>Recent content on 闲情叙话</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <copyright>&amp;copy;2017, All Rights Reserved</copyright>
+    <managingEditor>wulron@126.com (wulron)</managingEditor>
+    <webMaster>wulron@126.com (wulron)</webMaster>
+    <copyright>&amp;copy;2017-{year}, All Rights Reserved</copyright>
     
         <atom:link href="/zh/archive/index.xml" rel="self" type="application/rss+xml" />
     
