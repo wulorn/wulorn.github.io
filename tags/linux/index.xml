@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on 闲情叙话</title>
+    <link>/tags/linux/</link>
+    <description>Recent content in linux on 闲情叙话</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wulron@126.com (wulron)</managingEditor>
+    <webMaster>wulron@126.com (wulron)</webMaster>
+    <copyright>&amp;copy;2017-{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 18 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>centOS服务器日志数据量过大，占用磁盘过高</title>
+        <link>/posts/logrotate/</link>
+        <pubDate>Mon, 18 Jun 2018 00:00:00 +0000</pubDate>
+        <author>wulron@126.com (wulron)</author>
+        <guid>/posts/logrotate/</guid>
+        <description>简介 logrotate 是一个 linux 系统日志的管理工具。它可以切割、压缩等其他软件的日志文件软件。
+logrotate 是基于 crontab 运行的，所以这个时间点是由 crontab 控制的，其脚本是/etc/cron.daily/logrotate。Logrotate 会调用配置文件/etc/logrotate.conf。
+可以在/etc/logrotate.d 目录里放置自定义好的配置文件，用来覆盖 Logrotate 的缺省值
+安装 1  yum -y install logrotate   查看配置文件路径
+1  rpm -ql logrotate    /etc/logrotate.conf logrotate 的配置文件是 /etc/logrotate.d/ 是用于存储其他配置文件的目录  1  vim /etc/logrotate.d/nginx   1 2 3 4 5 6 7 8 9 10 11 12 13 14  /var/log/nginx/*.log { daily rotate 7 missingok notifempty dateext compress sharedscripts postrotate if [ -f /run/nginx.</description>
+      </item>
+      
+      <item>
+        <title>redis慎用keys *和flushadb</title>
+        <link>/posts/redis-keys/</link>
+        <pubDate>Mon, 18 Jun 2018 00:00:00 +0000</pubDate>
+        <author>wulron@126.com (wulron)</author>
+        <guid>/posts/redis-keys/</guid>
+        <description>查看链接 redis 的服务器 ip 1 2 3  redis-cli -h 地址 -a 密码 CLIENT LIST|awk -F &amp;#34;addr=&amp;#34; &amp;#39;{print $2}&amp;#39;|awk -F &amp;#34;:&amp;#34; &amp;#39;{print $1}&amp;#39;|sort|uniq 这样就可以看到谁链接了，当前执行命令的机器也会在里面~   灾难性的 keys * reidds是单线程，当程序中有大量key时，使用keys *,会导致线程阻塞。特别时对于线上程序来说， 阻塞几秒钟时非常严重的。
+替换 keys * 操作 1 2 3 4 5 6 7  所有要查询key的命令，要用 scan来代替，分片的处理 滥用flushdb flushall 同keys * ，使用scan查询keys之后删除即可。 http://doc.redisfans.com/key/scan.html 这里有使用的中文文档，count可以控制在 100，通过游标一直遍历下去，不会导致长时间的锁。 keys * 会整体锁住，scan只会遍历 count个数据，速度极快   </description>
+      </item>
+      
+    
+  </channel>
+</rss>

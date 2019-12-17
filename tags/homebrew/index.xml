@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>homebrew on 闲情叙话</title>
+    <link>/tags/homebrew/</link>
+    <description>Recent content in homebrew on 闲情叙话</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wulron@126.com (wulron)</managingEditor>
+    <webMaster>wulron@126.com (wulron)</webMaster>
+    <copyright>&amp;copy;2017-{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 08 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="/tags/homebrew/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>homebrew源替换及恢复</title>
+        <link>/posts/homebrew%E6%BA%90%E6%9B%BF%E6%8D%A2%E5%8F%8A%E6%81%A2%E5%A4%8D/</link>
+        <pubDate>Mon, 08 Oct 2018 00:00:00 +0000</pubDate>
+        <author>wulron@126.com (wulron)</author>
+        <guid>/posts/homebrew%E6%BA%90%E6%9B%BF%E6%8D%A2%E5%8F%8A%E6%81%A2%E5%A4%8D/</guid>
+        <description>在国内的网络环境下使用 Homebrew 安装软件的过程中可能会长时间卡在 Updating Homebrew 这个步骤。
+例：执行 brew install composer 命令
+1 2  ~ brew install composer Updating Homebrew... # 如果碰到长时间卡在这里，参考以下 2 种处理方法   方法 1：按住 control + c 取消本次更新操作 1 2 3  ~ brew install composer Updating Homebrew... ^C   按住 control + c 之后命令行会显示 ^C，就代表已经取消了 Updating Homebrew 操作
+大概不到 1 秒钟之后就会去执行我们真正需要的安装操作了
+1 2 3 4 5  ~ brew install composer Updating Homebrew... ^C==&amp;gt; Satisfying dependencies ==&amp;gt; Downloading https://getcomposer.</description>
+      </item>
+      
+    
+  </channel>
+</rss>

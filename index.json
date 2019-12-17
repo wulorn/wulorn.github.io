@@ -198,7 +198,7 @@
 	"content": ""
 },
 {
-	"uri": "/tags/themes/",
+	"uri": "/categories/themes/",
 	"title": "themes",
 	"tags": [],
 	"categories": [],
@@ -207,7 +207,7 @@
 	"content": ""
 },
 {
-	"uri": "/categories/themes/",
+	"uri": "/tags/themes/",
 	"title": "themes",
 	"tags": [],
 	"categories": [],
@@ -342,8 +342,89 @@
 	"content": "Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.\nHugo makes use of a variety of open source projects including:\n https://github.com/russross/blackfriday https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper  Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.\nHugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.\nWebsites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.\nLearn more and contribute on GitHub.\n"
 },
 {
-	"uri": "/categories/hugo/",
-	"title": "hugo",
+	"uri": "/tags/homebrew/",
+	"title": "homebrew",
+	"tags": [],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/posts/homebrew%E6%BA%90%E6%9B%BF%E6%8D%A2%E5%8F%8A%E6%81%A2%E5%A4%8D/",
+	"title": "homebrew源替换及恢复",
+	"tags": ["homebrew", "Mac"],
+	"categories": [],
+	"series": [],
+	"description": "homebrew镜像源替换及恢复为官方源",
+	"content": "在国内的网络环境下使用 Homebrew 安装软件的过程中可能会长时间卡在 Updating Homebrew 这个步骤。\n例：执行 brew install composer 命令\n1 2  ~ brew install composer Updating Homebrew... # 如果碰到长时间卡在这里，参考以下 2 种处理方法   方法 1：按住 control + c 取消本次更新操作 1 2 3  ~ brew install composer Updating Homebrew... ^C   按住 control + c 之后命令行会显示 ^C，就代表已经取消了 Updating Homebrew 操作\n大概不到 1 秒钟之后就会去执行我们真正需要的安装操作了\n1 2 3 4 5  ~ brew install composer Updating Homebrew... ^C==\u0026gt; Satisfying dependencies ==\u0026gt; Downloading https://getcomposer.org/download/1.7.2/composer.phar ...   方法2：替换Homebrew 默认镜像源为国内源 brew 的核心用到的库\n brew.git homebrew-core.git homebrew-bottles  1.替换为Alibaba的镜像源  替换 / 还原 brew.git 仓库地址  1 2 3 4 5 6 7 8 9  # 替换成阿里巴巴的 brew.git 仓库地址: cd \u0026#34;$(brew --repo)\u0026#34; git remote set-url origin https://mirrors.aliyun.com/homebrew/brew.git #======================================================= # 还原为官方提供的 brew.git 仓库地址 cd \u0026#34;$(brew --repo)\u0026#34; git remote set-url origin https://github.com/Homebrew/brew.git   替换 / 还原 homebrew-core.git 仓库地址  1 2 3 4 5 6 7 8 9  # 替换成阿里巴巴的 homebrew-core.git 仓库地址: cd \u0026#34;$(brew --repo)/Library/Taps/homebrew/homebrew-core\u0026#34; git remote set-url origin https://mirrors.aliyun.com/homebrew/homebrew-core.git #======================================================= # 还原为官方提供的 homebrew-core.git 仓库地址 cd \u0026#34;$(brew --repo)/Library/Taps/homebrew/homebrew-core\u0026#34; git remote set-url origin https://github.com/Homebrew/homebrew-core.git   替换 / 还原 homebrew-bottles \\  homebrew-bottles和macOS系统使用的shell版本有关系,\\ 核查当前使用的shell版本  1 2 3 4  echo $SHELL # 如果你的输出结果是 /bin/zsh，参考下方的 zsh 终端操作方式 # 如果你的输出结果是 /bin/bash，参考下方的 bash 终端操作方式   3.1 zsh 终端操作方式\n1 2 3 4 5 6 7 8 9 10  # 替换成阿里巴巴的 homebrew-bottles 访问地址: echo \u0026#39;export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.aliyun.com/homebrew/homebrew-bottles\u0026#39; \u0026gt;\u0026gt; ~/.zshrc source ~/.zshrc #======================================================= # 还原为官方提供的 homebrew-bottles 访问地址 vi ~/.zshrc # 然后，删除 HOMEBREW_BOTTLE_DOMAIN 这一行配置 source ~/.zshrc   3.2 bash 终端操作方式\n1 2 3 4 5 6 7 8 9 10  # 替换 homebrew-bottles 访问 URL: echo \u0026#39;export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.aliyun.com/homebrew/homebrew-bottles\u0026#39; \u0026gt;\u0026gt; ~/.bash_profile source ~/.bash_profile #======================================================= # 还原为官方提供的 homebrew-bottles 访问地址 vi ~/.bash_profile # 然后，删除 HOMEBREW_BOTTLE_DOMAIN 这一行配置 source ~/.bash_profile   方法3 直接禁用每次安装前的更新 禁用安装前更新\n1 2  # ~/.zshrc export HOMEBREW_NO_AUTO_UPDATE=true   方法4 使用中科大的镜像源  替换中科大镜像源  1 2 3 4 5 6 7 8 9 10  # 步骤一 cd \u0026#34;$(brew --repo)\u0026#34; git remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git # 步骤二 cd \u0026#34;$(brew --repo)/Library/Taps/homebrew/homebrew-core\u0026#34; git remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git #步骤三 brew update    复原为默认源  1 2 3 4 5 6 7  cd \u0026#34;$(brew --repo)\u0026#34; git remote set-url origin https://github.com/Homebrew/brew.git cd \u0026#34;$(brew --repo)/Library/Taps/homebrew/homebrew-core\u0026#34; git remote set-url origin https://github.com/Homebrew/homebrew-core brew update   ​ ​\n​\n"
+},
+{
+	"uri": "/tags/mac/",
+	"title": "Mac",
+	"tags": [],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/posts/logrotate/",
+	"title": "centOS服务器日志数据量过大，占用磁盘过高",
+	"tags": ["log", "linux"],
+	"categories": [],
+	"series": [],
+	"description": "压缩服务器磁盘日志占用空间，压缩比能达到10倍",
+	"content": "简介 logrotate 是一个 linux 系统日志的管理工具。它可以切割、压缩等其他软件的日志文件软件。\nlogrotate 是基于 crontab 运行的，所以这个时间点是由 crontab 控制的，其脚本是/etc/cron.daily/logrotate。Logrotate 会调用配置文件/etc/logrotate.conf。\n可以在/etc/logrotate.d 目录里放置自定义好的配置文件，用来覆盖 Logrotate 的缺省值\n安装 1  yum -y install logrotate   查看配置文件路径\n1  rpm -ql logrotate    /etc/logrotate.conf logrotate 的配置文件是 /etc/logrotate.d/ 是用于存储其他配置文件的目录  1  vim /etc/logrotate.d/nginx   1 2 3 4 5 6 7 8 9 10 11 12 13 14  /var/log/nginx/*.log { daily rotate 7 missingok notifempty dateext compress sharedscripts postrotate if [ -f /run/nginx.pid ]; then kill -USR1 `cat /run/nginx.pid` fi endscript }   其中 /var/log/nginx/*.log /run/nginx.pid 要以 log 位置和 nginx.conf 里 pid 的实际位置为准。\n 生产服务器 pid /var/run/nginx.pid; 测试服务器 pid /run/nginx.pid  手动运行：\n1 2  /usr/sbin/logrotate -f /etc/logrotate.d/nginx /usr/sbin/logrotate -d -f /etc/logrotate.d/nginx   "
+},
+{
+	"uri": "/posts/time_wait/",
+	"title": "centOS系统上2msl时间过长，占用内存过高",
+	"tags": ["time_wait"],
+	"categories": [],
+	"series": [],
+	"description": "服务器time_wait时间修改",
+	"content": " /etc/sysctl.conf\n 编辑文件，加入以下内容：\n1 2 3 4  1. net.ipv4.tcp_syncookies = 1 2. net.ipv4.tcp_tw_reuse = 1 3. net.ipv4.tcp_tw_recycle = 1 4. net.ipv4.tcp_fin_timeout = 30   然后执行/sbin/sysctl -p让参数生效。\n  net.ipv4.tcp_syncookies = 1 表示开启SYN Cookies。当出现SYN等待队列溢出时，启用cookies来处理，可防范少量SYN攻击，默认为0，表示关闭；\n  net.ipv4.tcp_tw_reuse = 1表示开启重用。允许将TIME-WAIT sockets重新用于新的TCP连接，默认为0，表示关闭；\n  net.ipv4.tcp_tw_recycle = 1表示开启TCP连接中TIME-WAIT sockets的快速回收，默认为0，表示关闭。\n  net.ipv4.tcp_fin_timeout修改系統默认的TIMEOUT时间\n  修改之后，再用命令查看TIME_WAIT连接数netstat -ant |grep \u0026quot;TIME_WAIT\u0026quot; |wc –l\n"
+},
+{
+	"uri": "/tags/linux/",
+	"title": "linux",
+	"tags": [],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tags/log/",
+	"title": "log",
+	"tags": [],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tags/redis/",
+	"title": "redis",
+	"tags": [],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/posts/redis-keys/",
+	"title": "redis慎用keys *和flushadb",
+	"tags": ["redis", "linux"],
+	"categories": [],
+	"series": [],
+	"description": "单线程redis使用注意事项",
+	"content": "查看链接 redis 的服务器 ip 1 2 3  redis-cli -h 地址 -a 密码 CLIENT LIST|awk -F \u0026#34;addr=\u0026#34; \u0026#39;{print $2}\u0026#39;|awk -F \u0026#34;:\u0026#34; \u0026#39;{print $1}\u0026#39;|sort|uniq 这样就可以看到谁链接了，当前执行命令的机器也会在里面~   灾难性的 keys * reidds是单线程，当程序中有大量key时，使用keys *,会导致线程阻塞。特别时对于线上程序来说， 阻塞几秒钟时非常严重的。\n替换 keys * 操作 1 2 3 4 5 6 7  所有要查询key的命令，要用 scan来代替，分片的处理 滥用flushdb flushall 同keys * ，使用scan查询keys之后删除即可。 http://doc.redisfans.com/key/scan.html 这里有使用的中文文档，count可以控制在 100，通过游标一直遍历下去，不会导致长时间的锁。 keys * 会整体锁住，scan只会遍历 count个数据，速度极快   "
+},
+{
+	"uri": "/tags/time_wait/",
+	"title": "time_wait",
 	"tags": [],
 	"categories": [],
 	"series": [],
@@ -352,6 +433,15 @@
 },
 {
 	"uri": "/tags/hugo/",
+	"title": "hugo",
+	"tags": [],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/categories/hugo/",
 	"title": "hugo",
 	"tags": [],
 	"categories": [],
@@ -502,4 +592,13 @@
 	"series": [],
 	"description": "Note Sub List",
 	"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget enim lobortis, bibendum massa et, bibendum enim. Nunc eu augue quis ante porta sodales. Mauris vel faucibus magna, dictum sagittis dolor. Nam scelerisque malesuada efficitur. Donec consequat sodales justo, ut aliquam ligula maximus nec.\n"
+},
+{
+	"uri": "/posts/time-wait/",
+	"title": "",
+	"tags": [],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": " /etc/sysctl.conf\n 编辑文件，加入以下内容：\n net.ipv4.tcp_syncookies = 1 net.ipv4.tcp_tw_reuse = 1 net.ipv4.tcp_tw_recycle = 1 net.ipv4.tcp_fin_timeout = 30  然后执行/sbin/sysctl -p让参数生效。\n net.ipv4.tcp_syncookies = 1 表示开启SYN Cookies。当出现SYN等待队列溢出时，启用cookies来处理，可防范少量SYN攻击，默认为0，表示关闭； net.ipv4.tcp_tw_reuse = 1表示开启重用。允许将TIME-WAIT sockets重新用于新的TCP连接，默认为0，表示关闭； net.ipv4.tcp_tw_recycle = 1表示开启TCP连接中TIME-WAIT sockets的快速回收，默认为0，表示关闭。 net.ipv4.tcp_fin_timeout修改系統默认的TIMEOUT时间  修改之后，再用命令查看TIME_WAIT连接数netstat -ant |grep \u0026quot;TIME_WAIT\u0026quot; |wc –l\n"
 }]
