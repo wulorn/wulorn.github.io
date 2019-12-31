@@ -371,33 +371,6 @@
 </article>
 
         
-        
-  <article class="summary-classic">
-  <div class="summary-classic__flex-box">
-    
-    
-    <div class="summary-classic__content">
-      <header>
-        <h5 class="title h5"><a href='/posts/time-wait/'> </a> </h5>
-        <h6 class="subtitle caption">🕓 Jan 1, 0001 &middot ☕1 min read
-        </h6>
-      </header>
-      <div>
-        <div class="summary-classic__text p2">
-          
-          /etc/sysctl.conf
- 编辑文件，加入以下内容：
- net.ipv4.tcp_syncookies = 1 net.ipv4.tcp_tw_reuse = 1 net.ipv4.tcp_tw_recycle = 1 net.ipv4.tcp_fin_timeout = 30  然后执行/sbin/sysctl -p让参数生效。
- net.ipv4.tcp_syncookies = 1 表示开启SYN Cookies。当出现SYN等待队列溢出时，启用cookies来处理，可防范少量SYN攻击，默认为0，表示关闭； net.ipv4.tcp_tw_reuse = 1表示开启重用。允许将TIME-WAIT sockets重新用于新的TCP连接，默认为0，表示关闭； net.ipv4.tcp_tw_recycle = 1表示开启TCP连接中TIME-WAIT sockets的快速回收，默认为0，表示关闭。 net.ipv4.tcp_fin_timeout修改系統默认的TIMEOUT时间  修改之后，再用命令查看TIME_WAIT连接数netstat -ant |grep &quot;TIME_WAIT&quot; |wc –l
-          
-        </div>
-      </div>
-    </div>
-  </div>
-  <hr />
-</article>
-
-        
     </div>
     
 
@@ -665,6 +638,19 @@
         
         
             <span class="tag">
+                <a href="/tags/grpc/" class="is-tags taxo__link">
+                    <span class="taxo__text">
+                        gRPC
+                    </span>
+                    <span class="taxo__num">
+                        1
+                    </span>
+                </a>
+            </span>
+        
+        
+        
+            <span class="tag">
                 <a href="/tags/homebrew/" class="is-tags taxo__link">
                     <span class="taxo__text">
                         homebrew
@@ -769,35 +755,9 @@
         
         
             <span class="tag">
-                <a href="/tags/privacy/" class="is-tags taxo__link">
-                    <span class="taxo__text">
-                        privacy
-                    </span>
-                    <span class="taxo__num">
-                        1
-                    </span>
-                </a>
-            </span>
-        
-        
-        
-            <span class="tag">
                 <a href="/tags/redis/" class="is-tags taxo__link">
                     <span class="taxo__text">
                         redis
-                    </span>
-                    <span class="taxo__num">
-                        1
-                    </span>
-                </a>
-            </span>
-        
-        
-        
-            <span class="tag">
-                <a href="/tags/shortcodes/" class="is-tags taxo__link">
-                    <span class="taxo__text">
-                        shortcodes
                     </span>
                     <span class="taxo__num">
                         1
@@ -837,6 +797,19 @@
                 <a href="/tags/time_wait/" class="is-tags taxo__link">
                     <span class="taxo__text">
                         time_wait
+                    </span>
+                    <span class="taxo__num">
+                        1
+                    </span>
+                </a>
+            </span>
+        
+        
+        
+            <span class="tag">
+                <a href="/tags/tls/" class="is-tags taxo__link">
+                    <span class="taxo__text">
+                        TLS
                     </span>
                     <span class="taxo__num">
                         1
@@ -1134,8 +1107,7 @@
             ©2017-2019, All Rights Reserved
         </p>
         
-        <p class="caption">Powered by <a href="https://gohugo.io/" rel="noreferrer">Hugo</a> and the <a
-                href="https://github.com/wulorn" rel="noreferrer">&nbsp;wulorn</a></p>
+        <p class="caption"><a href="http://beian.miit.gov.cn" rel="noreferrer">备案号：粤ICP备19044113号-1</a></p>
 
         
         
