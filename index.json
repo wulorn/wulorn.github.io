@@ -198,7 +198,7 @@
 	"content": ""
 },
 {
-	"uri": "/tags/themes/",
+	"uri": "/categories/themes/",
 	"title": "themes",
 	"tags": [],
 	"categories": [],
@@ -207,7 +207,7 @@
 	"content": ""
 },
 {
-	"uri": "/categories/themes/",
+	"uri": "/tags/themes/",
 	"title": "themes",
 	"tags": [],
 	"categories": [],
